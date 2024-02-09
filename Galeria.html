@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #inicio {
-            text-decoration: none;
-            padding: 5px;
-            margin-left: 70px;
-            color: black;
-        }
-
-        #inicio:hover {
-            background-color: rgb(179, 218, 224);
-            color: rgb(26, 78, 190);
-        }
-        img{
-            width: 20%;
-            height: 20%;
-        }
-        #contactos {
-            text-decoration: none;
-            color: white;
-        }
-
-        #contactos:hover {
-            background-color: rgb(179, 218, 224);
-            color: rgb(26, 78, 190);
-        }
-    </style>
+    <link rel="stylesheet" href="css/estiloGalería.css">
 </head>
-
-<body style="width: 1200px; margin: auto;">
-    <div>
-        <header style="  margin: auto; height: 100px;">
-            <img style=" width: 100px; height: 100px; float: right;" src="ImgInicio/Logo.png" alt="Logo de la pagina">
-
-            <h1 style="float: left;">Galería</h1>
-
-            <div id="registros" style="float: right;  height: 100px; width: 200px;">
-                <div style="float: right;  position: absolute; margin-top: 40px; margin-left:90px;">
-                    Iniciar sesion.
-                </div>
-                <div style="float: left;  position: absolute; margin-top: 40px;">
-                    Registrarse.
-                </div>
+<body>
+    <div id="menu">
+        <header>
+            <h1>Artes Dagos</h1>
+            <div id="registros">
             </div>
+            <img src="css/imagenes/Logo/logo.png" alt="">
         </header>
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Imagenes</a>
+            <a href="">Foro</a>
+            <a href="">Contactos</a>
+        </nav>
+    </div>
 
-        <nav style="height: 20px; width: 1200px; margin: auto; position:sticky; background-color: rgb(163, 163, 163);">
-            <div style="text-align: center;">
-                <a id="inicio" href="Index.html">Inicio</a>
-                <a id="inicio" href="Galeria.html">Galeria</a>
-                <a id="inicio" href="Tecnicos.html">Tecnicos</a>
-                <a id="inicio" href="Sobre nosotros.html">Sobre nosotros</a>
-            </div>
+    <div id="bloque">
     </div>
-    <div style="text-align: center;">
-        <h1>Galeria</h1>
-        <p>texto de ejemplo</p>
+
+    <div id="Galería" class="gridContainer">
+        <img src="https://cdn.domestika.org/c_fit,dpr_auto,f_auto,q_80,t_base_params,w_820/v1648047212/content-items/010/922/720/E0B16BE2-208C-4A99-9451-0421EDFF9979-original.jpeg?1648047212" alt="" id="item1">
+        <img src="https://media.istockphoto.com/id/1189587813/es/vector/espada-con-rosas-boceto-de-tatuaje-ilustraci%C3%B3n-dibujada-a-mano-convertida-en-vector-aislado.jpg?s=612x612&w=0&k=20&c=6cYSuOiQOF3SPHmzosU7K2pGjygzmb1EOsltYpSzY_Q=" alt="" id="item2">
+        <img src="https://i.pinimg.com/originals/58/b4/b2/58b4b21e5801e6d7500d2e0ec3476f01.jpg" alt="" id="item3">
+        <img src="https://i.pinimg.com/736x/8c/c4/e7/8cc4e75bd705f0c743302ca2c6d65d17.jpg" alt="" id="item4">
+        <img src="https://javierlekuona.files.wordpress.com/2013/10/tatto2.jpg" alt="" id="item5">
+        <img src="https://www.shutterstock.com/image-vector/rose-flower-on-white-background-600nw-1450907987.jpg" alt="" id="item6">
+        <img src="https://tatuajes.wiki/wp-content/uploads/dibujos-de-tatuajes-para-hombres-5.jpg" alt="" id="item7">
+        <img src="https://e1.pxfuel.com/desktop-wallpaper/771/244/desktop-wallpaper-easy-tattoos-to-draw-new-cool-and-easy-tattoos-cool-electronic-cool-drawings.jpg" alt="" id="item8">
+        <img src="https://catalogodetatuajesparahombres.com/wp-content/uploads/2017/02/dibujos-de-tatuajes-para-dibujar-a-lapiz.jpg" alt="" id="item9">
+        <img src="https://www.shutterstock.com/image-vector/swallow-bird-doodle-illustration-vector-600nw-2276076451.jpg" alt="" id="item10">
+        <img src="https://i.pinimg.com/564x/2e/b3/ab/2eb3ab2c1ab9af6e56e8533dc5708a17.jpg" alt="" id="item11">
+        <img src="https://us.123rf.com/450wm/rudvi/rudvi1703/rudvi170300049/74900333-tatuajes-g%C3%B3ticos-tatuaje-tribal-de-arte-dibujo-vectorial-de-un-tatuaje-idea-para-dise%C3%B1o.jpg" alt="" id="item12">
+        <img src="https://ih1.redbubble.net/image.5097394433.1485/raf,360x360,075,t,fafafa:ca443f4786.jpg" alt="" id="item13">
     </div>
-    <div style="background-color: greenyellow; width: 1200px; height: 10px; margin-top: 40px;"></div>
-    <div style="width: 1200px; text-align: center;">
-        <img src="ImgInicio/escalada1.jpg" alt="">
-        <img src="ImgInicio/escalada2.jpg" alt="">
-        <img src="ImgInicio/imagennieve.jpg" alt="">
-        <img src="ImgInicio/imgpersonas.jpeg" alt="">
-        <img src="ImgInicio/Ruta1.jpg" alt="">
-        <img src="ImgInicio/ruta2.jpg" alt="">
-        <img src="ImgInicio/rutario.jpg" alt="">
-        <img src="ImgInicio/SierraNevadaBlog1.jpg" alt="">
-    </div>
-    <div style="background-color: rgb(117, 117, 117); width: 1200px; height: 300px;">
-        <div style="text-align: center;">
-            <h3>contactos</h3>
-            <p><a id="contactos" href="#">senderossur@gmail.com</a></p>
-            <p><a id="contactos" href="#">@Senderos_sur</a></p>
+
+    <footer>
+        <div>
+            <ul style="list-style: none;">
+                <li>
+                    <p><strong>Sobre nosotros</strong></p>
+                </li>
+                <br>
+                <li><a href="">Locales</a></li>
+                <br>
+                <li><a href="">Nuestro equipo</a></li>
+                <br>
+                <li><a href="">Terminos de seguridad</a></li>
+            </ul>
         </div>
-    </div>
+        <div>
+            <ul style="list-style: none;">
+                <li>
+                    <p><strong>Recursos</strong></p>
+                </li>
+                <br>
+                <li><a href="">Videos de las instalaciones</a></li>
+                <br>
+                <li><a href="">Imagenes</a></li>
+                <br>
+                <li><a href="">Comentarios de clientes</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style: none;">
+                <li>
+                    <p><strong>Contactos</strong></p>
+                </li>
+                <br>
+                <li>605 34 43 55</li>
+                <br>
+                <li><a href="">dagostatto@gmail.com</a></li>
+            </ul>
+        </div>
+        <div id="contactos">
+            <a href=""><img src="css/imagenes/Contactos/contacto1.png" alt=""></a>
+            <a href=""><img src="css/imagenes/Contactos/contacto2.png" alt=""></a>
+        </div>
+    </footer>
 </body>
-
 </html>
