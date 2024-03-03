@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/horario.css">
+    <style>
+        .card {
+            color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+
+        .price {
+            color: grey;
+            font-size: 22px;
+        }
+
+        .card button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        .card button:hover {
+            opacity: 0.7;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <div id="upper" style="display: flex;">
@@ -14,8 +47,11 @@
             </div>
             <div id="registro" style="width: 600px;">
                 <p>tlf: 958 33 66 99</p>
-                <a href="" style="background-color: red; color: white; border-radius: 50px; padding: 5px; text-decoration: none;">Iniciar sesión</a>
-                <a href="" style="background-color: red; color: white; border-radius: 50px; padding: 5px; text-decoration: none;">Registrarse</a>
+                <a href=""
+                    style="background-color: red; color: white; border-radius: 50px; padding: 5px; text-decoration: none;">Iniciar
+                    sesión</a>
+                <a href=""
+                    style="background-color: red; color: white; border-radius: 50px; padding: 5px; text-decoration: none;">Registrarse</a>
                 <select id="laguaje" name="laguaje">
                     <option value="Spanish">Español</option>
                     <option value="English">Inglés</option>
@@ -32,13 +68,52 @@
                 <a href="Index.html">Inicio</a>
                 <a href="Galeria.html">Galería</a>
                 <a href="Precios.html">Precios</a>
-                <a href="Servicios.html">Servicios</a>
                 <a href="Horarios.html">Horarios</a>
                 <a href="reservar.html" id="reserva">Reserva ya</a>
             </div>
         </div>
     </header>
+    <div style="display: flex; flex-wrap: wrap;">
+        <div class="card">
+            <img src="css/imagenes/precios/imagen1.jpg" alt=" " style="width:100%">
+            <h1>Casa campaña</h1>
+            <p class="price">$60.00</p>
+            <p>Este acogedor apartamento ofrece un ambiente confortable y
+                funcional a un precio asequible de solo 50 euros por día.
+                Con una ubicación estratégica, este piso es perfecto para
+                aquellos que buscan una estancia cómoda y económica.</p>
+            <p><button>Alquilar</button></p>
+        </div>
 
+        <div class="card">
+            <img src="css/imagenes/precios/imagen2.jpg" alt=" " style="width:100%">
+            <h1>Casa disco</h1>
+            <p class="price">$100.00</p>
+            <p>Bienvenido a este moderno y luminoso piso en alquiler,
+                donde la comodidad se combina con el estilo contemporáneo.
+                Situado en una ubicación privilegiada, este apartamento
+                ofrece un ambiente elegante y funcional a un precio asequible
+                de solo 100 euros por día. Con una decoración moderna y todas
+                las comodidades necesarias, este piso es ideal para aquellos
+                que buscan una estancia confortable y con estilo.</p>
+            <p><button>Alquilar</button></p>
+        </div>
+
+        <div class="card">
+            <img src="css/imagenes/precios/imagen3.jpg" alt=" " style="width:100%">
+            <h1>Casa esfera</h1>
+            <p class="price">$150.00</p>
+            <p>Bienvenido a este exclusivo y elegante piso en alquiler,
+                donde la sofisticación se encuentra con la comodidad.
+                Ubicado en una zona prestigiosa, este apartamento ofrece
+                un ambiente refinado y lujoso a un precio accesible de solo
+                150 euros por día. Con una decoración elegante, amplios
+                espacios y comodidades de alta gama, este piso es ideal
+                para aquellos que buscan una experiencia de alojamiento
+                de primera categoría.</p>
+            <p><button>Alquilar</button></p>
+        </div>
+    </div>
     <footer style="justify-content: center;">
         <div id="footerInfo" style="border: 1px solid white;">
             <div>
@@ -68,4 +143,5 @@
         </div>
     </footer>
 </body>
+
 </html>
