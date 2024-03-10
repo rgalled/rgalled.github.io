@@ -5,75 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/horario.css">
-    <style>
-        .card {
-            color: white;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            max-width: 300px;
-            margin: auto;
-            text-align: center;
-            font-family: arial;
-        }
-
-        .price {
-            color: grey;
-            font-size: 22px;
-        }
-
-        .card button {
-            border: none;
-            outline: 0;
-            padding: 12px;
-            color: white;
-            background-color: #000;
-            text-align: center;
-            cursor: pointer;
-            width: 100%;
-            font-size: 18px;
-        }
-
-        .card button:hover {
-            opacity: 0.7;
-        }
-    </style>
+    <link rel="stylesheet" href="css/precios.css">
 </head>
 
 <body>
     <header>
-        <div id="upper" style="display: flex;">
-            <div style="width: 200px; border: 1px black solid;">
-                <p style="margin-left: 50px; ">MarsHome Company</p>
-            </div>
-            <div id="registro" style="width: 600px;">
-                <p>tlf: 958 33 66 99</p>
-                <a href=""
-                    style="background-color: red; color: white; border-radius: 50px; padding: 5px; text-decoration: none;">Iniciar
-                    sesión</a>
-                <a href=""
-                    style="background-color: red; color: white; border-radius: 50px; padding: 5px; text-decoration: none;">Registrarse</a>
-                <select id="laguaje" name="laguaje">
-                    <option value="Spanish">Español</option>
-                    <option value="English">Inglés</option>
-                    <option value="Francais">Francés</option>
-                    <option value="Klingon">Klingon</option>
-                </select>
-            </div>
-        </div>
         <div style="display: flex;">
             <div>
                 <img src="css/imagenes/Index/Logo.PNG" alt="">
             </div>
             <div id="menu">
-                <a href="Index.html">Inicio</a>
-                <a href="Galeria.html">Galería</a>
-                <a href="Precios.html">Precios</a>
-                <a href="Horarios.html">Horarios</a>
+                <a class="hoverYes" href="Index.html">Inicio</a>
+                <a class="hoverYes" href="Galeria.html">Galería</a>
+                <a class="hoverYes" href="Precios.html">Precios</a>
+                <a class="hoverYes" href="Horarios.html">Horarios</a>
                 <a href="reservar.html" id="reserva">Reserva ya</a>
+                <a href="usuario.html"><img src="css/imagenes/Index/usuario.png" alt="" style="width:200px; height:100px ;"></a>
             </div>
         </div>
     </header>
-    <div style="display: flex; flex-wrap: wrap;">
+
+    <div style="display: flex; flex-wrap: wrap; color: white;">
         <div class="card">
             <img src="css/imagenes/precios/imagen1.jpg" alt=" " style="width:100%">
             <h1>Casa campaña</h1>

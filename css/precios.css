@@ -9,17 +9,39 @@ header {
     background-color: white;
 }
 
-#upper{
-    background-color: rgb(63, 38, 29);
-}
 
-#registro {
-    display: flex;
-    margin-left: 500px;
+#registro{
+    margin-left: 600px;
 }
 
 #registro *{
     margin-right: 20px;
+}
+
+header #menu {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header #menu a {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-size: 2em;
+}
+
+.hoverYes:hover {
+    padding-bottom: 49px;
+    border-bottom: 15px solid black;
+}
+
+header #menu #reserva {
+    padding: 40px;
+    background-color: rgb(113, 54, 54);
+    color: white;
+    border-radius: 30px;
 }
 
 .card {
@@ -28,14 +50,14 @@ header {
     margin: auto;
     text-align: center;
     font-family: arial;
-  }
-  
-  .price {
+}
+
+.price {
     color: grey;
     font-size: 22px;
-  }
-  
-  .card button {
+}
+
+.card button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -45,11 +67,11 @@ header {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-  }
-  
-  .card button:hover {
+}
+
+.card button:hover {
     opacity: 0.7;
-  }
+}
 
 header #menu {
     padding-top: 80px;
@@ -75,7 +97,7 @@ header #menu #reserva {
     border-radius: 30px;
 }
 
-header #menu #reserva:hover{
+header #menu #reserva:hover {
     background-color: rgb(52, 25, 25);
 }
 
@@ -98,4 +120,3 @@ footer #footerInfo div {
     margin-right: 100px;
     color: white;
 }
-
