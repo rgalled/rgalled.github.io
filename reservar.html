@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reserva.css">
 </head>
+
 <body>
-    
+
+    <div style="justify-content: center; color: white; width: 900px; margin: auto;">
+        <div class="container">
+            <h1>Reserva de Parcela</h1>
+            <form action="#" method="post">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" >
+          
+              <label for="email">Correo electrónico:</label>
+              <input type="email" id="email" name="email" >
+          
+              <label for="fecha">Fecha de reserva:</label>
+              <input type="date" id="fecha" name="fecha" >
+          
+              <label for="tipo_parcela">Tipo de parcela:</label>
+              <select id="tipo_parcela" name="tipo_parcela">
+                <option value="Casa campaña">Estándar</option>
+                <option value="Casa disco">Premium</option>
+                <option value="Casa esfera">Deluxe</option>
+              </select>
+          
+              <label for="mensaje">Mensaje (opcional):</label>
+              <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+          
+              <label for="cantidad_personas">Cantidad de personas:</label>
+              <select id="cantidad_personas" name="cantidad_personas">
+                <option value="1">1 persona</option>
+                <option value="2">2 personas</option>
+                <option value="3">3 personas</option>
+                <option value="4">4 personas</option>
+                <option value="5+">5 o más personas</option>
+              </select>
+          
+              <input type="submit" value="Enviar reserva">
+              <input type="submit" value="Volver" href="Index.html">
+            </form>
+    </div>
+
 </body>
+
 </html>
